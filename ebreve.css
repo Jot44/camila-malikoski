@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin: 15px;
+    padding: 13px;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: #E1D3C6;
+}
+
+
+.titulo{
+    font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+
+}
+
+.proj1{
+    border: 5px solid #B4825D;
+    width: 300px;
+    height: 500px;
+    display: table;
+}
+
+.proj2{
+    border: 5px solid #B4825D;
+    width: 300px;
+    height: 500px;
+    display: table;
+}
+
+.proj3{
+    border: 5px solid #B4825D;
+    width: 300px;
+    height: 500px;
+    display: table;
+}
+
+.text{
+    color: white;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+footer{
+    margin-top: 10px;
+}
+hr{ 
+    background-color: #ebd4c2;
+    height: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.instagram{
+    margin-top: 5px;
+}
+
+.linkedin{
+    margin-top: 5px;
+}
+
+.textinsta{
+    font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+   
+.textlinked{
+    font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.textebook{
+    font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
